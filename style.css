@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#app{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.title{
+    font-size: 72px;
+    color: #41b883;
+    padding: 40px;
+    background-color: black;
+    opacity: .9;
+}
+img{
+    width: 10%;
+    padding: 25px 10px;
+    background-color: black;
+    opacity: .9;
+}
